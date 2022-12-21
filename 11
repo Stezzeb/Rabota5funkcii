@@ -1,0 +1,3 @@
+from functools import reduce 
+s = ['научиться плести рыболовные сети', 'обучать нейронные сети', 'паук ловит в сети мух']
+print(sum(map(lambda x: 'сети' in x.lower(), s)))
